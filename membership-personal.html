@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/reset.css" />
+   <link rel="stylesheet" href="css/styles-membership.css" />
+
+   <title>Weight Watchers</title>
+</head>
+
+<body class="container home" id="top">
+
+   <header>
+      <div class="logo-top"><img src="img/ww.png" style="width:170px;height:60px;" /></div>
+      <nav>
+         <input type="checkbox" id="toggle" checked>
+         <label for="toggle" class="nav-toggle">
+            <div class="nav-icon"></div>
+         </label>
+         <ul>
+            <li>
+               <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+               <a href="plans.html">PLANS</a>
+            </li>
+            <li>
+                <a href="membership-digital.html">DIGITAL</a>
+            </li>
+            <li>
+                <a href="membership-workshops.html">WORKSHOPS</a>
+            </li>
+            <li class="active">
+                <a href="membership-personal.html">PERSONAL</a>
+            </li>
+            <li>
+                    <a href="account.html">ACCOUNT</a>
+                 </li>
+                 <li>
+                    <a href="welcome.html">WELCOME</a>
+                 </li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <article>
+         <section class="hero-container">
+            <div class="hero-text">
+               <p class="hero">Choose your membership</p>
+            </div>
+            <div class="signup-text">
+               <p>Choose between a 3, 6 or 12 month personal coaching membership plan</p>
+            </div>
+         </section>
+
+         <section class="plan-container">
+            <div class="plan-1-top">
+               <p id="plan-1-title">6 Months</p>
+            </div>
+            <div class="plan-1">
+               <p id="plan-1-price">$120</p>
+               <p id="per-month">per month</p>
+               <div class="plan-1-hidden">
+                    <a href="account.html"><button class="button">Continue with this plan</button></a>
+                  </div>
+            </div>
+         </section>
+         <section class="plan-container3">
+            <div class="plan-3-top">
+               <p id="plan-3-title">12 Months</p>
+            </div>
+            <div class="plan-3">
+               <p id="plan-3-price">$130</p>
+               <p id="per-month">per month</p>
+               <div class="plan-3-hidden">
+                    <a href="account.html"><button class="button">Continue with this plan</button></a>
+               </div>
+            </div>
+         </section>
+         <section class="plan-container2">
+            <div class="plan-2-top">
+               <p id="plan-2-title">3 Months</p>
+            </div>
+            <div class="plan-2">
+               <p id="plan-2-price">$96.50</p>
+               <p id="per-month">per month</p>
+               <div class="plan-2-hidden">
+                    <a href="account.html"><button class="button">Continue with this plan</button></a>
+               </div>
+            </div>
+         </section>
+      </article>
+   </main>
+
+   <script src="js/scrollmenu.js"></script>
+   <script type="text/javascript">
+      new ScrollMenu('.content-container a[href*="#"], footer a[href*="#"]', {
+         duration: 500,
+         activeOffset: 100,
+      })
+   </script>
+
+</body>
+
+</html>

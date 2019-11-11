@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- Meta tags -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Required imported CSS files -->
+   <link rel="stylesheet" href="css/reset.css" />
+   <!-- Main CSS file -->
+   <link rel="stylesheet" href="css/styles.css" />
+
+   <!-- Title -->
+   <title>Weight Watchers</title>
+</head>
+
+<body class="container home" id="top">
+
+   <!-- Make your modifications below -->
+   <header>
+      <div class="logo-top"><img src="img/ww.png" style="width:170px;height:60px;" /></div>
+      <nav id="navbar">
+         <input type="checkbox" id="toggle" checked>
+         <label for="toggle" class="nav-toggle">
+            <div class="nav-icon"></div>
+         </label>
+         <ul>
+            <li>
+               <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+               <a href="plans.html">PLANS</a>
+            </li>
+            <li>
+               <a href="membership-digital.html">DIGITAL</a>
+            </li>
+            <li>
+               <a href="membership-workshops.html">WORKSHOPS</a>
+            </li>
+            <li>
+               <a href="membership-personal.html">PERSONAL</a>
+            </li>
+            <li>
+               <a href="account.html">ACCOUNT</a>
+            </li>
+            <li class="active">
+               <a href="welcome.html">WELCOME</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <article>
+         <section class="hero-container">
+            <!-- Update the image and text below -->
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"/>
+            <div class="box"></div>
+            <div class="hero-text">
+               <p class="hero">Welcome to WW</p>
+            </div>
+            <div class="signup-text">
+               <p>Congratulations!</p>
+               <p>Get started on your weightloss journey now!</p>
+               <button class="button">Start your meal plan</button>
+               <button class="button" id="signup">Get advice</button>
+            </div>
+         </section>
+      
+      <div class="empty-container">
+         <p>Backed by science. Powered by technology. Tailored to you.</p>
+      </div>
+
+      <div class="intro-container">
+         <img class="intro-img" src="img/ww-intro.png"/> 
+         <div class="intro-text">
+            <p id="title">Introducing myWW</p>
+            <ul class="intro-list">
+               <li>myWW is our NEW customised program for weight loss and wellness​</li>
+               <div class="gap"></div>
+               <li>Get access to unparalleled expertise across food, activity and mindset</li>
+               <div class="gap"></div>
+               <li>Build healthy habits that fit into your life and achieve your weight loss and wellness goals</li>
+               <div class="gap"></div>
+               <li>WW App including our supportive member Connect social community</li>
+               <div class="gap"></div>
+               <li>No more counting and measuring with  ZeroPoint™ foods</li>
+               <div class="gap"></div>
+            </ul>
+            <button class="button" id="learn-more">Learn more</button>
+         </div>
+      </div>
+      
+      <div class="plans-container">
+         <img id="comp" src="img/laptop.png"/>
+         <div class="digital">
+            <p id="title-digital">Digital</p>
+            <p id="info-digital">Our app and website have easy-to-use tools to help you reach your goals.</p>
+         </div>
+         <img id="group" src="img/group.png"/>
+         <div class="workshops">
+            <p id="title-workshops">Workshops</p>
+            <p id="info-workshops">Each week get strategies & support from a Coach and Members like you.</p>
+         </div>
+         <img id="chat" src="img/chat-w.png"/>
+         <div class="personal">
+               <p id="title-personal">Personal Coaching</p>
+               <p id="info-personal">Get one to one support and guidance from your personal weight-loss Coach.</p>
+            </div>
+      </div>
+ 
+
+   <!-- Required imported js -->
+   <script src="js/scrollmenu.js"></script>
+   <script type="text/javascript">
+      new ScrollMenu('.content-container a[href*="#"], footer a[href*="#"]', {
+         duration: 500,
+         activeOffset: 100,
+      })
+   </script>
+
+</body>
+</html>

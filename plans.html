@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- Meta tags -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Required imported CSS files -->
+   <link rel="stylesheet" href="css/reset.css" />
+   <!-- Main CSS file -->
+   <link rel="stylesheet" href="css/styles-plans.css" />
+
+   <!-- Title -->
+   <title>Weight Watchers</title>
+</head>
+
+<body class="container home" id="top">
+
+   <!-- Make your modifications below -->
+   <header>
+      <div class="logo-top"><img src="img/ww.png" style="width:170px;height:60px;" /></div>
+      <nav>
+         <input type="checkbox" id="toggle" checked>
+         <label for="toggle" class="nav-toggle">
+            <div class="nav-icon"></div>
+         </label>
+         <ul>
+            <li>
+               <a href="about.html">ABOUT</a>
+            </li>
+            <li class="active">
+               <a href="plans.html">PLANS</a>
+            </li>
+            <li>
+               <a href="membership-digital.html">DIGITAL</a>
+            </li>
+            <li>
+               <a href="membership-workshops.html">WORKSHOPS</a>
+            </li>
+            <li>
+               <a href="membership-personal.html">PERSONAL</a>
+            </li>
+            <li>
+                  <a href="account.html">ACCOUNT</a>
+               </li>
+               <li>
+                  <a href="welcome.html">WELCOME</a>
+               </li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <article>
+         <section class="hero-container">
+            <div class="hero-text">
+               <p class="hero">Choose your plan</p>
+            </div>
+            <div class="signup-text">
+               <p>Choose the plan thats right for you with ‘Digital’, ‘Workshop’ or 'Personal Coaching'</p>
+            </div>
+         </section>
+
+         <section class="plan-container">
+            <div class="plan-1-top">
+               <p id="plan-1-title">Digital</p>
+            </div>
+            <div class="plan-1">
+               <p id="plan-1-price">from $39.50/month</p>
+               <img id="plan-1-img" src="img/laptop.png"/>
+               <p id="plan-1-text">Your tools for weight-loss success</p>
+               <div class="plan-1-hidden">
+                     <div class="separator"></div>
+                     <ul style="list-style-type:none;">
+                        <li>Award winning app</li>
+                     </br>
+                        <li>Supportive community</li>
+                     </br>
+                        <li>Expert Coaching</li>
+                     </ul>
+                     <a href="membership-digital.html"><button class="button">Continue with Digital</button></a>
+                  </div>
+            </div>
+         </section>
+         <section class="plan-container3">
+            <div class="plan-3-top">
+               <p id="plan-3-title">Personal Coaching</p>
+            </div>
+            <div class="plan-3">
+               <p id="plan-3-price">from $96.50/month</p>
+               <img id="plan-3-img" src="img/chat-w.png"/>
+               <p id="plan-3-text">One-on-one coaching plus our digital tools</p>
+               <div class="plan-3-hidden">
+                     <div class="separator"></div>
+                     <ul style="list-style-type:none;">
+                        <li>Personalised advice and support</li>
+                     </br>
+                        <li>An action plan just for you</li>
+                     </br>
+                        <li>Award winning app</li>
+                     </ul>
+                     <a href="membership-personal.html"><button class="button">Continue with Personal</button></a>
+                  </div>
+            </div>
+         </section>
+         <section class="plan-container2">
+            <div class="plan-2-top">
+               <p id="plan-2-title">Workshops</p>
+            </div>
+            <div class="plan-2">
+               <p id="plan-2-price">from $79.50/month</p>
+               <img id="plan-2-img" src="img/group.png"/>
+               <p id="plan-2-text">Weekly coaching, group support plus our app</p>
+               <div class="plan-2-hidden">
+                  <div class="separator"></div>
+                  <ul style="list-style-type:none;">
+                     <li>Expert Coaching and guidance</li>
+                  </br>
+                     <li>Supportive group community</li>
+                  </br>
+                     <li>Award winning app</li>
+                  </ul>
+                  <a href="membership-workshops.html"><button class="button">Continue with Workshops</button></a>
+               </div>
+            </div>
+         </section>
+      </article>
+   </main>
+
+
+   <!-- Required imported js -->
+   <script src="js/scrollmenu.js"></script>
+   <script type="text/javascript">
+      new ScrollMenu('.content-container a[href*="#"], footer a[href*="#"]', {
+         duration: 500,
+         activeOffset: 100,
+      })
+   </script>
+
+</body>
+
+</html>

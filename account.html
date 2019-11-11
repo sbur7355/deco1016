@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/reset.css" />
+   <link rel="stylesheet" href="css/styles-account.css" />
+
+   <title>Weight Watchers</title>
+</head>
+
+<body class="container home" id="top">
+
+   <header>
+      <div class="logo-top"><img src="img/ww.png" style="width:170px;height:60px;" /></div>
+      <nav>
+         <input type="checkbox" id="toggle" checked>
+         <label for="toggle" class="nav-toggle">
+            <div class="nav-icon"></div>
+         </label>
+         <ul>
+            <li>
+               <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+               <a href="plans.html">PLANS</a>
+            </li>
+            <li>
+                <a href="membership-digital.html">DIGITAL</a>
+            </li>
+            <li>
+                <a href="membership-workshops.html">WORKSHOPS</a>
+            </li>
+            <li>
+                <a href="membership-personal.html">PERSONAL</a>
+            </li>
+            <li class="active">
+               <a href="account.html">ACCOUNT</a>
+            </li>
+                 <li>
+                    <a href="welcome.html">WELCOME</a>
+                 </li>
+         </ul>
+      </nav>
+   </header>
+
+   <main>
+      <article>
+         <section class="hero-container">
+            <div class="hero-text">
+               <p class="hero">Create your account</p>
+            </div>
+            <div class="signup-text">
+               <p>You're just one step away from getting started on your weightloss journey!</p>
+            </div>
+         </section>
+         <img class="fit-img" src="https://images.unsplash.com/photo-1532384748853-8f54a8f476e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"/>
+         <form id="account-details">
+         <div class="first-name">
+            <input id="firstname-input" type="text" name="firstName" placeholder="   First Name">
+         </div>
+         <div class="last-name">
+            <input id="lastname-input" type="text" name="lastName" placeholder="   Last Name">
+         </div>
+         <div class="user-name">
+            <input id="user-input" type="text" name="userName" placeholder="   Username">
+          </div>
+         <div class="email">
+            <input id="email-input" type="email" name="email" placeholder="   Email Address">
+         </div>
+         <div class="password">
+            <input id="password-input" type="password" name="password" placeholder="  Password">
+         </div>
+      </form>
+      <div id="button"> 
+         <a href="welcome.html"><button class="button">Take the next step</button></a>
+      </div>
+      </article>
+   </main>
+
+   <script src="js/scrollmenu.js"></script>
+   <script type="text/javascript">
+      new ScrollMenu('.content-container a[href*="#"], footer a[href*="#"]', {
+         duration: 500,
+         activeOffset: 100,
+      })
+   </script>
+
+</body>
+
+</html>
